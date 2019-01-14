@@ -43,7 +43,7 @@
             android:fontFamily="@font/montserrat"
             app:layout_constraintTop_toTopOf="@+id/textView" android:layout_marginTop="50dp"/>
     <TextView
-            android:text="Find a team in your city & dominate the league"
+            android:text="Find a team in your city &amp; dominate the league"
             android:layout_width="248dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView4" android:singleLine="false"
@@ -57,5 +57,6 @@
             android:id="@+id/button"
             app:layout_constraintBottom_toBottomOf="@+id/imageView" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:text="GET STARTED" android:fontFamily="@font/montserrat"
-            android:textColor="@color/colorAccent" android:background="@drawable/swoosh_button"/>
+            android:textColor="@color/colorAccent" android:background="@drawable/swoosh_button"
+            android:layout_marginBottom="16dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
 </android.support.constraint.ConstraintLayout>

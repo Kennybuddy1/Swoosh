@@ -3,6 +3,7 @@ package com.arora.swoosh.Controller
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.arora.swoosh.Utilities.EXTRA_PLAYER
 
 open class BaseActivity : AppCompatActivity() {
 

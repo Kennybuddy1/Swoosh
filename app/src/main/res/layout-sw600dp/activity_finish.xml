@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             android:scaleType="centerCrop" android:contentDescription="@string/backround_image"/>
     <TextView
-            android:text="TextView"
+            android:text="@string/search_league"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/searchLeagueTxt" app:layout_constraintStart_toStartOf="parent"
